@@ -2,7 +2,7 @@
 ___
 ## About Testing Framework
 
-Testing framework was created for [TEST environment]('https://hr-services-stg.nordgold.com/') of microservice 'Идея' of the 'NordGold' project. 
+Testing framework was created for [TEST environment]('https://hr-services-stg.nordgold.com') of microservice 'Идея' of the 'NordGold' project. 
 
 This framework based on Cypress. It's an E2E testing tool based on JavaScript. To learn more about Cypress read its [documentation]('https://cypress.io/').
 
