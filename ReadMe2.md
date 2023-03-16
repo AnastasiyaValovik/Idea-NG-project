@@ -2,25 +2,25 @@
 ___
 ## About Testing Framework
 
-Testing framework was created for [TEST environment](https://hr-services-stg.nordgold.com) of microservice 'Идея' of the 'NordGold' project. 
+The testing framework was created for [TEST environment](https://hr-services-stg.nordgold.com) of microservice 'Идея' of the 'NordGold' project. 
 
-This framework based on Cypress. It's an E2E testing tool based on JavaScript. To learn more about Cypress read its [documentation](https://cypress.io/).
+This framework based on Cypress. It's an E2E testing tool based on JavaScript. To learn more about Cypress, read its [documentation](https://cypress.io/).
 
 ## How to navigate in the Project
-To find test specs open 'cypress/e2e/..'.  Specs are named by the name of testing page or functionality.
+To find test specs in the project open 'cypress/e2e/..'.  Specs are named by the name of testing page or functionality.
 
-To find methods used in tests open 'cypress/support/PageObjects/..'.  PageObject files are named according the pages or elements of pages it was created for.
+To find methods used in tests, open 'cypress/support/PageObjects/..'.  PageObject files are named according to the pages or elements of pages it was created for.
 
 
 ## Requirements before using project
     Node.js should be installed on your machine (above the 14 version).
 
-    NPM should be installed on your machine. To upload the latest version run in the terminal :
+    NPM should be installed on your machine. To upload the latest version, run in the terminal :
 
     npm install npm@latest -g
     
 ## Installation
-    Download project or clone repository. Run following commands in the root folder of the project:
+    Download project or clone repository. Run the following commands in the root folder of the project:
 
     npm install
     npm install cypress --save-dev
@@ -45,13 +45,13 @@ To find methods used in tests open 'cypress/support/PageObjects/..'.  PageObject
 
 ## Reports and tracking failed tests 
 #### Mochawesome reports 
-    The Mochawesome report generted after each test run. 
+    The Mochawesome report generates after each test run. 
 
-    'cypress/mochawesome-report/..'
+    Go to 'cypress/mochawesome-report/..' and open html file.
 
 
 #### Default Cypress functionality to catch failures and help with debugging process
 
-    Cypress makes screenshots of failed tests for last tests run. To check it open 'cyress/screenshots/..'
+    Cypress makes screenshots of failed tests for last tests run. To check it, open 'cyress/screenshots/..'
     
-    Cypress makes video of every last test run. To check it open 'cypress/videos/..'
+    Cypress makes video of every last test run. To check it, open 'cypress/videos/..'
